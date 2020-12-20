@@ -33,3 +33,5 @@ $ go get github.com/sachaos/go-actiongraph2dot
 ```shell
 $ go build -debug-actiongraph=graph.json . && cat graph.json | go-actiongraph2dot | dot -Tpng > graph.png && open graph.png
 ```
+
+![image](./imgs/graph.png)
